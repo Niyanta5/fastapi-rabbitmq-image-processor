@@ -36,18 +36,6 @@ FastAPI Backend: http://localhost:8000
 
 RabbitMQ Dashboard: http://localhost:15672 (guest/guest)
 
-.
-├── app/
-│   ├── backend/               # FastAPI application
-│   │   ├── main.py            # API routes and RabbitMQ logic
-│   ├── worker/                # Image processing worker
-│   │   ├── worker.py          # Consumes messages from RabbitMQ
-├── docker-compose.yml         # Defines backend, worker, RabbitMQ
-├── Dockerfile                 # Multi-stage Docker build
-├── requirements.txt           # Python dependencies
-├── uploaded_images/           # User-uploaded images (volume)
-└── processed_images/          # Processed images (volume)
-
 
 ### 📡 API Endpoints
 ###Upload Image
