@@ -20,7 +20,6 @@ fastapirabbitmqimageprocessing/
 ├── Dockerfile
 ├── uploaded_images/
 └── processed_images/
-```
 
 ## 🛠️ Prerequisites
 - Docker & Docker Compose
