@@ -8,6 +8,20 @@ A distributed image processing system using FastAPI, RabbitMQ, and Docker. Uploa
 - **Async Processing**: Worker processes images in the background.
 - **Dockerized**: Easy setup with Docker Compose.
 
+  ```bash
+fastapirabbitmqimageprocessing/
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   ├── routes.py
+│   ├── worker.py
+│   └── requirements.txt
+├── docker-compose.yml
+├── Dockerfile
+├── uploaded_images/
+└── processed_images/
+```
+
 ## 🛠️ Prerequisites
 - Docker & Docker Compose
 - Python 3.10+
@@ -51,6 +65,8 @@ GET /status/{image_id}
   "processed_image_url": "http://localhost:8000/processed_images/unique-id.png"
 }
 ```
+
+
 
 
 
