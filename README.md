@@ -10,7 +10,7 @@ A distributed image processing system using FastAPI, RabbitMQ, and Docker. Uploa
 
 ## 🛠️ Prerequisites
 - Docker & Docker Compose
-- Python 3.10+
+- Python 3.10
 
 ## 🚀 Quick Start
 
